@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-0744f8d8f0ed0ab25" # replace with your SG ID
+SG_ID="sg-0b000073d26137d27" # replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z09557543125WH5AL9FA3" # replace with your ZONE ID
 DOMAIN_NAME="saritag.online" # replace with your domain
